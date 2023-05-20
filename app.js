@@ -22,7 +22,6 @@ for(let i=0; i<Group.length; i++)
     
 }
 
-// await fs.writeFile(process.cwd() + "/Group.json", JSON.stringify(Group));
 res.end(JSON.stringify(Group))
 
 }
